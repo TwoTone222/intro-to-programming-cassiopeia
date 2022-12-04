@@ -1,0 +1,139 @@
+*{
+    background-color:rgb(56, 54, 54);
+    color: lightgreen;
+    font-family: Audiowide;
+}
+
+title {
+   font-size: large;
+   font-weight: bold;
+   margin-bottom: 60px;
+   display: flex;
+   justify-content: center;
+
+}
+
+section {
+    font-size: 50;
+    color: lightgrey;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+}
+
+h1{
+
+    font-size: 50 ;
+    font-weight: 10 ;
+    color:lightgrey;
+}
+
+  #namePrompt {
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+    border: 40px;
+}
+
+#emailPrompt {
+    margin: auto;
+    padding:5px;
+    border-radius:10px;
+    border:20px;
+}
+
+#messagePrompt {
+     margin: auto;
+    padding:10px;
+    border-radius:10px;
+    border:40px;
+}
+
+textarea { 
+
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+
+}
+
+input.textbox{
+    margin-bottom: 10px;
+}
+
+ .textbox {
+   display:flex;
+   justify-content: center;
+
+}
+
+h1{
+    border-style: inset;
+    border:10px;
+    box-shadow: 5px 5px 8px 4px; #888888;x;
+}
+
+#MESSAGES{
+   box-shadow:  5px 5px 8px 4px; #888888;
+}
+
+#CONNECT{
+
+    padding: 20px;
+}
+
+section.skills{
+    display: flex;
+    align-items: flex-start;
+    box-shadow: 5px;
+}
+
+#navbar{
+    background-color: lightgreen;
+    display:flex;
+    justify-content:center;
+    text-align: justify;
+}
+
+nav ul{
+    list-style:none;
+}
+
+nav li{ 
+    display:inline-block;
+    padding: 10px;
+    padding-top: 15px;
+    position: relative;
+}
+
+nav a:hover{
+ color: lightgray;
+}
+
+nav a::before{
+  
+content: "";
+display: block;
+height: 5px;
+
+background-color: lightgray;
+position: absolute;
+top: 0;
+width:0%;
+
+transition: all ease-in-out 350ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
